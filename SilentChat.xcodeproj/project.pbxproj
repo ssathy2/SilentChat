@@ -21,6 +21,15 @@
 		DEA04B341893136900559BBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA04B161893136900559BBC /* UIKit.framework */; };
 		DEA04B3C1893136900559BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEA04B3A1893136900559BBC /* InfoPlist.strings */; };
 		DEA04B3E1893136900559BBC /* SilentChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA04B3D1893136900559BBC /* SilentChatTests.m */; };
+		DEA04B4C189313F200559BBC /* SSDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA04B49189313F200559BBC /* SSDataService.m */; };
+		DEA04B4D189313F200559BBC /* SSServicesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA04B4B189313F200559BBC /* SSServicesManager.m */; };
+		DEA04B551893147F00559BBC /* DDDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA04B531893147F00559BBC /* DDDBaseViewController.m */; };
+		DEA04B561893147F00559BBC /* DDDManagerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA04B541893147F00559BBC /* DDDManagerBase.m */; };
+		DEBF49C21894BEB8006AEF5B /* UIColor+DDDColors.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBF49BD1894BEB8006AEF5B /* UIColor+DDDColors.m */; };
+		DEBF49C31894BEB8006AEF5B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBF49BF1894BEB8006AEF5B /* UIImage+ImageEffects.m */; };
+		DEBF49C41894BEB8006AEF5B /* UIView+DDDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBF49C11894BEB8006AEF5B /* UIView+DDDAdditions.m */; };
+		DEBF49CA1894BF5A006AEF5B /* DDDStyledLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBF49C91894BF5A006AEF5B /* DDDStyledLabel.m */; };
+		DEBF49CD1894C062006AEF5B /* UIFont+DDDAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBF49CC1894C062006AEF5B /* UIFont+DDDAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,27 @@
 		DEA04B391893136900559BBC /* SilentChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SilentChatTests-Info.plist"; sourceTree = "<group>"; };
 		DEA04B3B1893136900559BBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEA04B3D1893136900559BBC /* SilentChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SilentChatTests.m; sourceTree = "<group>"; };
+		DEA04B48189313F200559BBC /* SSDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDataService.h; sourceTree = "<group>"; };
+		DEA04B49189313F200559BBC /* SSDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDataService.m; sourceTree = "<group>"; };
+		DEA04B4A189313F200559BBC /* SSServicesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSServicesManager.h; sourceTree = "<group>"; };
+		DEA04B4B189313F200559BBC /* SSServicesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSServicesManager.m; sourceTree = "<group>"; };
+		DEA04B501893144500559BBC /* DDDManagerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDManagerBase.h; sourceTree = "<group>"; };
+		DEA04B521893147F00559BBC /* DDDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDBaseViewController.h; sourceTree = "<group>"; };
+		DEA04B531893147F00559BBC /* DDDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDBaseViewController.m; sourceTree = "<group>"; };
+		DEA04B541893147F00559BBC /* DDDManagerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDManagerBase.m; sourceTree = "<group>"; };
+		DEBF49BC1894BEB8006AEF5B /* UIColor+DDDColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DDDColors.h"; sourceTree = "<group>"; };
+		DEBF49BD1894BEB8006AEF5B /* UIColor+DDDColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DDDColors.m"; sourceTree = "<group>"; };
+		DEBF49BE1894BEB8006AEF5B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DEBF49BF1894BEB8006AEF5B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DEBF49C01894BEB8006AEF5B /* UIView+DDDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDDAdditions.h"; sourceTree = "<group>"; };
+		DEBF49C11894BEB8006AEF5B /* UIView+DDDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDDAdditions.m"; sourceTree = "<group>"; };
+		DEBF49C51894BECA006AEF5B /* DDDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDConstants.h; sourceTree = "<group>"; };
+		DEBF49C61894BECA006AEF5B /* DDDEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDEnums.h; sourceTree = "<group>"; };
+		DEBF49C81894BF5A006AEF5B /* DDDStyledLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDStyledLabel.h; sourceTree = "<group>"; };
+		DEBF49C91894BF5A006AEF5B /* DDDStyledLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDStyledLabel.m; sourceTree = "<group>"; };
+		DEBF49CB1894C062006AEF5B /* UIFont+DDDAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+DDDAdditions.h"; sourceTree = "<group>"; };
+		DEBF49CC1894C062006AEF5B /* UIFont+DDDAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+DDDAdditions.m"; sourceTree = "<group>"; };
+		DEBF49D11894F12C006AEF5B /* DDDUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDUI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +142,16 @@
 		DEA04B181893136900559BBC /* SilentChat */ = {
 			isa = PBXGroup;
 			children = (
+				DEBF49CE1894C37C006AEF5B /* Ui */,
+				DEBF49BB1894BE90006AEF5B /* Utils */,
+				DEBF49BA1894BE84006AEF5B /* Categories */,
+				DEBF49B81894BBBC006AEF5B /* View Controllers */,
+				DEBF49B71894BBAC006AEF5B /* Storyboards */,
+				DEBF49B61894BB9B006AEF5B /* Models */,
+				DEA04B4E189313F500559BBC /* Base */,
+				DEA04B47189313BB00559BBC /* Services */,
 				DEA04B211893136900559BBC /* DDDAppDelegate.h */,
 				DEA04B221893136900559BBC /* DDDAppDelegate.m */,
-				DEA04B241893136900559BBC /* Main.storyboard */,
-				DEA04B271893136900559BBC /* DDDViewController.h */,
-				DEA04B281893136900559BBC /* DDDViewController.m */,
 				DEA04B2A1893136900559BBC /* Images.xcassets */,
 				DEA04B191893136900559BBC /* Supporting Files */,
 			);
@@ -150,6 +185,86 @@
 				DEA04B3A1893136900559BBC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEA04B47189313BB00559BBC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DEA04B48189313F200559BBC /* SSDataService.h */,
+				DEA04B49189313F200559BBC /* SSDataService.m */,
+				DEA04B4A189313F200559BBC /* SSServicesManager.h */,
+				DEA04B4B189313F200559BBC /* SSServicesManager.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		DEA04B4E189313F500559BBC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DEA04B501893144500559BBC /* DDDManagerBase.h */,
+				DEA04B541893147F00559BBC /* DDDManagerBase.m */,
+				DEA04B521893147F00559BBC /* DDDBaseViewController.h */,
+				DEA04B531893147F00559BBC /* DDDBaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		DEBF49B61894BB9B006AEF5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DEBF49B71894BBAC006AEF5B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DEA04B241893136900559BBC /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DEBF49B81894BBBC006AEF5B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEA04B271893136900559BBC /* DDDViewController.h */,
+				DEA04B281893136900559BBC /* DDDViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		DEBF49BA1894BE84006AEF5B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF49CB1894C062006AEF5B /* UIFont+DDDAdditions.h */,
+				DEBF49CC1894C062006AEF5B /* UIFont+DDDAdditions.m */,
+				DEBF49BC1894BEB8006AEF5B /* UIColor+DDDColors.h */,
+				DEBF49BD1894BEB8006AEF5B /* UIColor+DDDColors.m */,
+				DEBF49BE1894BEB8006AEF5B /* UIImage+ImageEffects.h */,
+				DEBF49BF1894BEB8006AEF5B /* UIImage+ImageEffects.m */,
+				DEBF49C01894BEB8006AEF5B /* UIView+DDDAdditions.h */,
+				DEBF49C11894BEB8006AEF5B /* UIView+DDDAdditions.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		DEBF49BB1894BE90006AEF5B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF49C81894BF5A006AEF5B /* DDDStyledLabel.h */,
+				DEBF49C91894BF5A006AEF5B /* DDDStyledLabel.m */,
+				DEBF49C51894BECA006AEF5B /* DDDConstants.h */,
+				DEBF49C61894BECA006AEF5B /* DDDEnums.h */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		DEBF49CE1894C37C006AEF5B /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				DEBF49D11894F12C006AEF5B /* DDDUI.h */,
+			);
+			name = Ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +368,15 @@
 				DEA04B1F1893136900559BBC /* main.m in Sources */,
 				DEA04B291893136900559BBC /* DDDViewController.m in Sources */,
 				DEA04B231893136900559BBC /* DDDAppDelegate.m in Sources */,
+				DEA04B4C189313F200559BBC /* SSDataService.m in Sources */,
+				DEBF49C41894BEB8006AEF5B /* UIView+DDDAdditions.m in Sources */,
+				DEA04B4D189313F200559BBC /* SSServicesManager.m in Sources */,
+				DEBF49C31894BEB8006AEF5B /* UIImage+ImageEffects.m in Sources */,
+				DEBF49CA1894BF5A006AEF5B /* DDDStyledLabel.m in Sources */,
+				DEBF49CD1894C062006AEF5B /* UIFont+DDDAdditions.m in Sources */,
+				DEBF49C21894BEB8006AEF5B /* UIColor+DDDColors.m in Sources */,
+				DEA04B561893147F00559BBC /* DDDManagerBase.m in Sources */,
+				DEA04B551893147F00559BBC /* DDDBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +585,7 @@
 				DEA04B431893136900559BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEA04B441893136900559BBC /* Build configuration list for PBXNativeTarget "SilentChatTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +594,7 @@
 				DEA04B461893136900559BBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

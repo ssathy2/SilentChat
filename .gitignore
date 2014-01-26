@@ -1,0 +1,6 @@
+*.lock
+*.xcworkspace
+Pods/*
+SWAiOS.xcodeproj/xcuserdata/*
+SWAiOS.xcodeproj/project.xcworkspace/*
+
